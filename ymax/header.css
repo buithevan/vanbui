@@ -1,0 +1,150 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: Poppins;
+	font-size: 16px;
+	color: #fff;
+	box-sizing: border-box;
+
+}
+
+
+@font-face {
+	font-family: Poppins ;
+	src: url(font/Poppins/Poppins-Regular.ttf);
+}
+
+header{
+	background-color: #00000083;
+	
+	
+
+}
+.container{
+	max-width:1180px ;
+	margin: 0 auto;
+}
+
+
+
+
+.header-top{
+	display: flex;
+	
+}
+	
+.logo{
+	padding:22px 0 0 0;
+	flex: 15%;
+}
+.checkbtn{
+    display: none;
+}
+.header-top input{
+    display: none;
+}
+.nav-menu{
+	
+	padding:38px 0 38px 62px;
+}
+.menu-action{
+	padding:38px 0 38px 0;
+
+}
+.menu-action ul{
+	justify-content: end;
+}
+.logo h1{
+	padding: 0 0 0 5px;
+}
+.nav-main{
+	display: flex;
+	flex:85%;
+	justify-content: space-between;
+}
+nav ul{
+	display: flex;
+}
+nav ul li a:hover:not(.shopping),
+nav ul li a i:hover{
+	color: #1fcf7c;
+}
+.nav-menu ul li {
+	padding: 0 26px 0 26px;
+}
+
+
+
+.menu-action .shopping::after{
+	content: "|";
+}
+.menu-action .shopping::before{
+	content: "|";
+}
+.menu-action .shopping i{
+     padding: 0 25px 0 25px;
+}
+.menu-action .search{
+	padding: 0 25px 0 5px;
+}
+.menu-action .user{
+	padding: 0 5px 0 25px;
+}
+
+
+
+
+
+/*----------------------Page-title-----------------*/
+ .content-box{
+	 border-radius: 5px;
+ }
+.image-title{
+	background: url("image/img-title.jpg");
+	background-size: cover;
+	height: 1050px;
+	position: absolute;
+    width: 100%;
+    top: -100px;
+    z-index: -5;
+}
+.title-content{
+	padding: 205px 0 0 0;
+}
+.title{
+	line-height: 65px;
+}
+.title h2{
+	font-size: 60px;
+}
+.title h3{
+	font-size: 40px;
+	padding: 0 0 0 2px;
+}
+.title-content p{
+	line-height: 24px;
+	font-size: 14px;
+	padding: 19px 0 0 5px;
+	width: 47%;
+}
+/*==============Button=============*/
+.shop-now-btn{
+	background-color: #ffffff00;
+    border: solid 1px #fff;
+    color: rgb(255, 255, 255);
+    padding: 12px 47px 13px 46px;
+	margin:54px 0 0 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+ 
+	
+}
+.shop-now-btn:hover{
+	transition: 0.5s;
+    color:#1fcf7c ;
+	border: solid 1px #13e282;
+}
+

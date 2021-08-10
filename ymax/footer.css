@@ -1,0 +1,109 @@
+/*===================Footer=================*/
+
+footer {
+    background-color: #222222;
+}
+
+.footer-top {
+    text-align: center;
+    border-bottom: #777777 1px solid;
+}
+
+.wrap-footer-top {
+    padding: 0 5px 0 5px;
+}
+
+.footer-top p {
+    color: #777777;
+    font-size: 14px;
+}
+
+.footer-top i {
+    font-size: 18px;
+    color: #777777;
+}
+
+.footer-top ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-top a i {
+    padding: 10px;
+}
+
+.footer-top a:hover i {
+    color: #f02121;
+    transition: 0.5s;
+}
+
+.footer-top img {
+    padding: 100px 0 25px 0;
+}
+
+.footer-top ul {
+    padding: 35px 0 50px 0;
+}
+
+.footer-top p {
+    margin: 0 auto;
+    width: 67%;
+}
+
+/*--------------footer------------*/
+
+.footer {
+    display: flex;
+    padding: 70px 5px 35px 5px;
+}
+
+.footer div {
+    margin-right: 31px;
+}
+
+.footer .quick-link {
+    margin-right: 0;
+}
+
+.footer ul li {
+    line-height: 40px;
+}
+
+.footer-title {
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.footer a, .footer span, .footer i {
+    font-size: 14px;
+    color: #777777;
+}
+
+.contact-us, .my-account, .information, .quick-link {
+    flex: 25%;
+}
+
+.contact-us ul li i {
+    margin-right: 22px;
+}
+
+.contact-us a:hover,.my-account a:hover, .information a:hover, .quick-link a:hover {
+    color: #1fcf7c;
+}
+
+/*===================Copyright=================*/
+
+.copyright {
+    display: flex;
+    background-color: #111111;
+    padding: 0 5px 0 5px;
+}
+.copyright span{
+    margin: 0 auto;
+}
+.copyright span, .copyright i{
+    font-size: 14px;
+    color: #777777;
+    padding: 9px 0 9px 0;
+    
+}
